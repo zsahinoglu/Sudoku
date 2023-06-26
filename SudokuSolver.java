@@ -1,3 +1,18 @@
+
+//This code solves a given Sudoku puzzle. The code is written in Java in collaboration with ChatGPT.
+//The user is prompted to enter a puzzle in a 9x9 array format. An example input at a terminal is here:
+/*
+[0,0,0,0,0,0,0,0,6]
+[0,8,1,0,0,5,0,0,9]
+[0,0,0,0,0,7,0,8,0]
+[9,0,8,0,1,6,2,0,0]
+[0,2,0,4,8,0,0,0,0]
+[0,0,0,0,0,0,0,0,0]
+[7,9,0,6,0,0,0,3,1]
+[0,0,5,0,3,0,0,0,0]
+[1,0,2,0,0,9,0,0,0] 
+*/ 
+
 import java.util.Scanner;
 
 public class SudokuSolver {
