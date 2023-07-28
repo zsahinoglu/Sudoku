@@ -1,5 +1,5 @@
 
-//This code solves a given Sudoku puzzle. The code is written in Java in collaboration with ChatGPT.
+//This code solves a given Sudoku puzzle. The code is written in Java in collaboration with ChatGPT.deneme
 //The user is prompted to enter a puzzle in a 9x9 array format. An example input at a terminal is here:
 /*
 [0,0,0,0,0,0,0,0,6]
@@ -7,7 +7,7 @@
 [0,0,0,0,0,7,0,8,0]
 [9,0,8,0,1,6,2,0,0]
 [0,2,0,4,8,0,0,0,0]
-[0,0,0,0,0,0,0,0,0]
+[0,0,0,0,0,0,X,0,0]
 [7,9,0,6,0,0,0,3,1]
 [0,0,5,0,3,0,0,0,0]
 [1,0,2,0,0,9,0,0,0] 
@@ -120,3 +120,36 @@ public class SudokuSolver {
         }
     }
 }
+
+row=5
+col = 6
+
+rowblock =1
+columnblock=2
+
+gridRowStart = 2
+gridColumnStart =0
+
+0, 0
+1, 0
+2, 0
+
+3, 0
+4, 1
+5, 1
+
+6, 2
+7, 2
+8, 2
+
+/*
+[0,0,0,0,0,0,0,0,6]
+[0,8,1,0,0,5,0,0,9]
+[0,0,0,0,0,7,0,8,0]
+[9,0,8,0,1,6,2,0,0]
+[0,2,0,4,8,0,0,0,0]
+[0,0,0,0,0,0,X,0,0]
+[7,9,0,6,0,0,0,3,1]
+[0,0,5,0,3,0,0,0,0]
+[1,0,2,0,0,9,0,0,0] 
+*/ 
