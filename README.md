@@ -1,2 +1,2 @@
 # Sudoku
-In this repository, I publish different ways to solve a Sudoku puzzle. Each approach will teach the reader use of new libraries and skills in Java programming. 
+In this repository, we learn how to use terminal input by user to enter a Sudoku puzzle into a solver written in Java. The solved puzzle is then output back onto the terminal.
